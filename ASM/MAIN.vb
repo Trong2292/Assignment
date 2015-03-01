@@ -39,4 +39,8 @@
         CTHD.MdiParent = Me
         CTHD.Show()
     End Sub
+
+    Private Sub FRMMAIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

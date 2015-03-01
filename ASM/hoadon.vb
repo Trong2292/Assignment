@@ -2,7 +2,7 @@
 Imports System.Data
 Imports System.Data.SqlClient
 Public Class frmhoadon
-    Dim ketnoi As New SqlConnection("Data Source=KY0SHIR0-PC\SQLEXPRESS;Initial Catalog=qlybanhang;Integrated Security=True")
+    Dim ketnoi As New SqlConnection("workstation id=trongvdpk00309.mssql.somee.com;packet size=4096;user id=trongvd;pwd=abcd1234;data source=trongvdpk00309.mssql.somee.com;persist security info=False;initial catalog=trongvdpk00309")
     Public Property Value As String
     Private Sub frmhoadon_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         loaddulieuhoadon()
